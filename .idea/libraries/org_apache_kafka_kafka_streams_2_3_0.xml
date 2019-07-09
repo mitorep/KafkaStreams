@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="org.apache.kafka:kafka-streams:2.3.0" type="repository">
+    <properties maven-id="org.apache.kafka:kafka-streams:2.3.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/kafka-streams-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kafka-clients-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zstd-jni-1.4.0-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lz4-java-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snappy-java-1.1.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/connect-json-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/connect-api-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.9.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-datatype-jdk8-2.9.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rocksdbjni-5.18.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

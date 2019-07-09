@@ -17,7 +17,7 @@ public class Producer {
         LOGGER.log(Level.INFO, "Kafka Producer running in thread {0}", Thread.currentThread().getName());
         Properties kafkaProps = new Properties();
 
-        kafkaProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, ":9092");
+        kafkaProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "ansible.mito.local:9092");
         kafkaProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
         kafkaProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
         kafkaProps.put(ProducerConfig.ACKS_CONFIG, "0");
@@ -32,7 +32,7 @@ public class Producer {
 
                 for (int i = 1; i <= 10; i++) {
                     String key = "machine-" + i;
-                    String value = String.valueOf(rnd.nextInt(20)); //-- Set value automaticaly
+                    String value = "message" + rnd.nextInt(20); //-- Set value automaticaly
 
                     //Scanner scan = new Scanner(System.in);  //Set value from console
                     //String value = scan.nextLine();

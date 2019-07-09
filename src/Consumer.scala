@@ -41,7 +41,7 @@ object Consumer extends App {
   println(appId)
   props.put(StreamsConfig.APPLICATION_ID_CONFIG, appId)
   props.put(StreamsConfig.CLIENT_ID_CONFIG, appId)
-  props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, ":9092")
+  props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "ansible.mito.local:9092")
 
   // Step 4. Create Kafka Streams Client
   import org.apache.kafka.streams.KafkaStreams
